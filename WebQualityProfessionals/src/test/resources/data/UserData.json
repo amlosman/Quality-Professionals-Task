@@ -1,0 +1,19 @@
+{
+  "itemKey" : "Thinking in HTML",
+  "productName": "Thinking in HTML",
+  "productPrice": "₹400.00",
+  "productQTY": "1",
+  "productTotalPrice": "₹400.00",
+  "BillingDetails": {
+    "firstName": "Amal",
+    "lastName": "Osman",
+    "companyName": "Test",
+    "emailAddress": "Test@gmail.com",
+    "phone": "01000000000",
+    "country": "Egypt",
+    "town": "test",
+    "address": "Test",
+    "Zip": "Test"
+  },
+  "ThankYouMgs": "Thank you. Your order has been received."
+}
