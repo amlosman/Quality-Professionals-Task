@@ -42,6 +42,7 @@ public class HomePage {
     }
 
     public void clickOnLocationIcon() {
+        ElementActions.waitElement(500);
         ElementActions.clickOnElement(appiumDriver, locationIcon);
     }
     public boolean validateTempIsDisplayed() {

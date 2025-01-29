@@ -1,6 +1,0 @@
-utilities\ScrollingActions.class
-utilities\ElementActions.class
-utilities\readers\PropertiesReader.class
-utilities\readers\JsonReader.class
-pages\HomePage.class
-utilities\VerifyActions.class
