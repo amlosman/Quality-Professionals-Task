@@ -15,7 +15,7 @@ public class ScrollingActions {
     public static void  scrollToFindElement(WebDriver driver, By locator) throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView()", driver.findElement(locator));
-        Thread.sleep(2000);
+        ElementActions.waitElement(2000);
     }
 
     public void scrollUpToFindElement(WebDriver driver) {

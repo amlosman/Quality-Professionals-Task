@@ -44,11 +44,7 @@ public class HomePage {
     }
 
     public void clickShoppingCard() {
-        try {
-            Thread.sleep(500);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        ElementActions.waitElement(500);
         ElementActions.clickOnElement(driver, shoppingCard);
     }
 }
