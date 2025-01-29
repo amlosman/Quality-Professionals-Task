@@ -62,7 +62,8 @@ https://github.com/user-attachments/assets/6712943a-80c8-40be-9a98-4e1c35a2d5d9
          3-genetate API Report from terminal 
                 mvn allure:serve
          Report Sample
-  
-![Uploading image.png…]()
+         
+  ![image](https://github.com/user-attachments/assets/8dee0c7b-c374-4005-9ec3-a3836eb03bcc)
+
 
              
