@@ -35,12 +35,34 @@
 
 ![image](https://github.com/user-attachments/assets/9d9f5a0c-9983-479d-b1ba-51d6b4219326)
 
-          3- For Running perellel  User this file : RunparallelBrowsers.xml
+          3- For Running parellel  User this file: RunparallelBrowsers.xml
+          Running Sample
+          
+![image](https://github.com/user-attachments/assets/ecf813bf-e4d3-4211-b443-7dc7d8ccca12)
 
-          3- genetate API Report from terminal 
+          4- genetate API Report from terminal 
                 mvn allure:serve
          Report Sample
 
 ![image](https://github.com/user-attachments/assets/b44011e8-5687-4143-8658-21ece8d3d225)
+
+## Mobile Task 
+  Please Run Web task By Open MobileAutomation then : 
+  
+         1-From terminal 
+             mvn clean test
+
+![image](https://github.com/user-attachments/assets/d168487b-13fe-4e04-82d5-29a71fa2e373)
+
+        2-Run from test class path: src/test/java/E2E/TempTest.java
+        Running Sample
+
+https://github.com/user-attachments/assets/6712943a-80c8-40be-9a98-4e1c35a2d5d9
+    
+         3-genetate API Report from terminal 
+                mvn allure:serve
+         Report Sample
+  
+![Uploading image.png…]()
 
              
