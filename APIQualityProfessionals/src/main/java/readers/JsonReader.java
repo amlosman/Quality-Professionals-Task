@@ -123,19 +123,16 @@ public class JsonReader {
 
     }
 
-    public JSONObject getNode(String parent) {
-        String[] tree = parent.split("/");
-        if (tree.length == 1) {
-            return (JSONObject) jsonObject.get(tree[0]);
-        }
-        int i = 1;
-        JSONObject parentNode;
-        parentNode = (JSONObject) jsonObject.get(tree[0]);
-        while (i < tree.length - 1) {
-            parentNode = (JSONObject) parentNode.get(tree[i]);
-            i++;
-        }
-        return (JSONObject) jsonObject.get(tree[i]);
+    public List<Object>getNode(String parent) {
+          JSONArray array = jsonObject.getJSONArray(parent);
+          List<Object>list= new ArrayList<>();
+          for(var item:array)
+          {
+              list.add(item);
+          }
+          return list;
+
+
     }
 
 }

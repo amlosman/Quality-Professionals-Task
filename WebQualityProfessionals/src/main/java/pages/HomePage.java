@@ -27,6 +27,7 @@ public class HomePage {
     }
 
     public void scrollToItemsList(String searchKey) {
+        ElementActions.waitElement(1000);
         try {
             ScrollingActions.scrollToFindElement(driver, By.xpath(String.format(itemKeyXPath, searchKey)));
         } catch (InterruptedException e) {

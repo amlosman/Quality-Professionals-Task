@@ -1,3 +1,44 @@
 {
-  
+  "TestDataObject": [
+    {
+      "id": 11,
+      "username": "Test1",
+      "firstName": "Test1",
+      "lastName": "Test1",
+      "email": "Test1@mail.com",
+      "password": "test123",
+      "phone": "0100010100",
+      "userStatus": -11
+    },
+    {
+      "id": 22,
+      "username": "Test2",
+      "firstName": "Test2",
+      "lastName": "Test2",
+      "email": "Test2@mail.com",
+      "password": "test123",
+      "phone": "0100010100",
+      "userStatus": -22
+    },
+    {
+      "id": -33,
+      "username": "Test3",
+      "firstName": "Test3",
+      "lastName": "Test3",
+      "email": "Test3@mail.com",
+      "password": "test3123",
+      "phone": "01000101300",
+      "userStatus": -33
+    },
+    {
+      "id": 44,
+      "username": "Test4",
+      "firstName": "Test4",
+      "lastName": "Test4",
+      "email": "Test4@mail.com",
+      "password": "test123",
+      "phone": "0100010100",
+      "userStatus": -44
+    }
+  ]
 }

@@ -66,4 +66,12 @@ public class ElementActions {
             clear(driver,locator);
         }
     }
+
+    public static void waitElement(int mills) {
+        try {
+            Thread.sleep(mills);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RunBrowers" parallel="tests" thread-count="2">
+    <parameter name="browser" value="Chrome"/>
+    <test  name="OnChrome">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="endToEnd.CheckOutProcessedTest"/>
+        </classes>
+    </test>
+    <test  name="OnFirefox">
+        <parameter name="browser" value="Firefox"/>
+        <classes>
+            <class name="endToEnd.CheckOutProcessedTest"/>
+        </classes>
+    </test>
+</suite>
